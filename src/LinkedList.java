@@ -1,5 +1,8 @@
 public class LinkedList {
-    public static void main(String[] args) {
+    Node head;
 
+    public void insert(int data){
+        Node node = new Node();
+        node.data = data;
     }
 }
